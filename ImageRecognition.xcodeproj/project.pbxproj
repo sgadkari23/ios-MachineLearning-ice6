@@ -15,6 +15,12 @@
 		687B751F261135AF0099B1D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687B751D261135AF0099B1D9 /* LaunchScreen.storyboard */; };
 		687B752A261135AF0099B1D9 /* ImageRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687B7529261135AF0099B1D9 /* ImageRecognitionTests.swift */; };
 		687B7535261135AF0099B1D9 /* ImageRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687B7534261135AF0099B1D9 /* ImageRecognitionUITests.swift */; };
+		687B7546261136C60099B1D9 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 687B7545261136C60099B1D9 /* MobileNetV2.mlmodel */; };
+		687B754B261136D60099B1D9 /* plane_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 687B754A261136D60099B1D9 /* plane_landscape.png */; };
+		687B7560261150530099B1D9 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 687B755F261150530099B1D9 /* bird.png */; };
+		687B75652611506D0099B1D9 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 687B75642611506D0099B1D9 /* SqueezeNet.mlmodel */; };
+		687B756A261151C30099B1D9 /* car.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 687B7569261151C30099B1D9 /* car.jpeg */; };
+		687B756F2611595B0099B1D9 /* kitten.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 687B756E2611595B0099B1D9 /* kitten.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		687B7530261135AF0099B1D9 /* ImageRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		687B7534261135AF0099B1D9 /* ImageRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRecognitionUITests.swift; sourceTree = "<group>"; };
 		687B7536261135AF0099B1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687B7545261136C60099B1D9 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		687B754A261136D60099B1D9 /* plane_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane_landscape.png; sourceTree = "<group>"; };
+		687B755F261150530099B1D9 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+		687B75642611506D0099B1D9 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		687B7569261151C30099B1D9 /* car.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpeg; sourceTree = "<group>"; };
+		687B756E2611595B0099B1D9 /* kitten.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				687B7514261135AE0099B1D9 /* SceneDelegate.swift */,
 				687B7516261135AE0099B1D9 /* ViewController.swift */,
 				687B7518261135AE0099B1D9 /* Main.storyboard */,
+				687B7545261136C60099B1D9 /* MobileNetV2.mlmodel */,
+				687B75642611506D0099B1D9 /* SqueezeNet.mlmodel */,
+				687B754A261136D60099B1D9 /* plane_landscape.png */,
+				687B756E2611595B0099B1D9 /* kitten.jpeg */,
+				687B7569261151C30099B1D9 /* car.jpeg */,
+				687B755F261150530099B1D9 /* bird.png */,
 				687B751B261135AF0099B1D9 /* Assets.xcassets */,
 				687B751D261135AF0099B1D9 /* LaunchScreen.storyboard */,
 				687B7520261135AF0099B1D9 /* Info.plist */,
@@ -231,6 +249,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				687B754B261136D60099B1D9 /* plane_landscape.png in Resources */,
+				687B756F2611595B0099B1D9 /* kitten.jpeg in Resources */,
+				687B7560261150530099B1D9 /* bird.png in Resources */,
+				687B756A261151C30099B1D9 /* car.jpeg in Resources */,
 				687B751F261135AF0099B1D9 /* LaunchScreen.storyboard in Resources */,
 				687B751C261135AF0099B1D9 /* Assets.xcassets in Resources */,
 				687B751A261135AE0099B1D9 /* Main.storyboard in Resources */,
@@ -260,6 +282,8 @@
 			files = (
 				687B7517261135AE0099B1D9 /* ViewController.swift in Sources */,
 				687B7513261135AE0099B1D9 /* AppDelegate.swift in Sources */,
+				687B75652611506D0099B1D9 /* SqueezeNet.mlmodel in Sources */,
+				687B7546261136C60099B1D9 /* MobileNetV2.mlmodel in Sources */,
 				687B7515261135AE0099B1D9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
